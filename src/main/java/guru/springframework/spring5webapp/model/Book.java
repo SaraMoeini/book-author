@@ -79,6 +79,7 @@ public class Book {
         this.authors = authors;
     }
 
+    //Recommended to define, when using with sets
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
